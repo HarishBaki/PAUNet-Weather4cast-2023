@@ -501,4 +501,4 @@ dependencies:
       - uri-template==1.2.0
       - webcolors==1.12
       - xesmf==0.7.1
-prefix: /scratch/xv83/jp6794/plotenv/conda/envs/Weather4cast-2023
+prefix: .
