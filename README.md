@@ -8,5 +8,5 @@ conda env create -f environment.yml creates an environment with the required pac
 ## Installation
 To use this code, you need the following
 - Clone the repository
-- Setup the conda environment
-- 
+- Setup the conda environment 'Weather4cast-2023.yml'. This environment is solely for prediction purpose, thus GUP usage is not implemented.
+- Fetch the data you want from the competition website. Follow the instructions at https://github.com/agruca-polsl/weather4cast-2023.git. The data should be in the data directory following the structure specified in the instructons.
