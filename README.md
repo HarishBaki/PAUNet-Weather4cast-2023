@@ -8,4 +8,5 @@ conda env create -f environment.yml creates an environment with the required pac
 ## Installation
 To use this code, you need the following
 - Clone the repository
-- Setup the conda environment 
+- Setup the conda environment
+- 
