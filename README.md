@@ -30,7 +30,7 @@ Arguments:
 - year: year
 - region: region name
 - inputs_root: the root directory of input files, possibly /data in the starter kit. Based on the year and region information, the script will look for specific files within this directory
-- target_folder: target folder to save model outputs
+- target_folder: target folder to save model outputs. The model output file will be saved within this folder <target_folder>/challenge/year/region.pred.h5
   
 - Run: python prediction.py "PAUNet_core.h5" "core" "32" "2019" "roxi_0004" "data" "predictions"
 
