@@ -58,7 +58,6 @@ def encoder_layer(inp, n_out, fil, dil_rate, std, swtch, alpha_val, reg_val):
     return y_crop, y 
 
 #Convolution decoder layers stack
-#def decoder_layer(inp,before_pool,  n_out, fil, dil_rate, std, swtch, alpha_val, reg_val,p,i,ps1,ps2,pstd):
 def decoder_layer(inp, n_out, fil, dil_rate, std, swtch, alpha_val, reg_val):
     y = con2d_trans(inp, n_out, fil, dil_rate, std*2, swtch, alpha_val, reg_val)
     inp_ = y
