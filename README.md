@@ -1,7 +1,8 @@
 # PAUNet-Weather4cast-2023
-This code was used for the submission to the Weather4cast 2023 challenge - NeurIPS2023, by the team "CHG"
+This code was used for the submission to the Weather4cast 2023 challenge - NeurIPS2023, by the team "CHG" 
 
-This repo is the official implementation of "PAUNet: Precipitation Attention-based U-Net for rain prediction from satellite radiance data" 
+This repo is the official implementation of "PAUNet: Precipitation Attention-based U-Net for rain prediction from satellite radiance data"
+The paper is uploaded here "https://doi.org/10.48550/arXiv.2311.18306" and the work is presented in the NeurIPS 2023 - Weather4cast-2023 challenge.
 
 conda env create -f environment.yml creates an environment with the required packages to execute the code in this repo
 
